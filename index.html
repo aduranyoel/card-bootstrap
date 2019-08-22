@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+    <style>
+    body{
+        background-color:  rgb(238, 238, 238);
+    }
+    
+    .hover-shadow-lg:hover {
+    -webkit-box-shadow: 0 12px 20px rgba(68,68,68,0.2) !important;
+    box-shadow: 0 12px 20px rgba(68,68,68,0.2) !important;
+    }
+    /* .translate-y-n10, .hover-translate-y-n10:hover {
+    -webkit-transform: translateY(-10px) !important;
+    -ms-transform: translateY(-10px) !important;
+    transform: translateY(-10px) !important;
+    } */
+    [class*=shadow] {
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    }
+
+    .mi-targeta {
+        margin-bottom: 15px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+    a.card {
+        text-decoration: none;
+        color: inherit;
+    }
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: rgb(255, 255, 255);
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+    
+    .pb-5, .py-5 {
+        padding-bottom: 6rem!important;
+    }
+    .pr-4, .px-4 {
+        padding-right: 1.5rem!important;
+    }
+    .pt-5, .py-5 {
+        padding-top: 3rem!important;
+    }
+    .pl-4, .px-4 {
+        padding-left: 1.5rem!important;
+    }
+    
+
+    </style>
+    <title>Cards</title>
+</head>
+<body>
+    <div class="container" style="padding-top: 15px;">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a href="https://www.google.com/" target="blank" class="card text-center hover-shadow-lg mi-targeta">
+                    <div class="px-4 py-5">
+                        HEADER
+                    </div>
+                    <div class="px-4 pb-5">
+                        <h5>Body Card</h5>
+                        <p class="text-muted">Impress with these beautiful landing pages.</p>
+                    </div>
+                </a>
+            </div>
+            
+            
+
+
+
+        </div>
+    </div>
+
+</body>
+</html>
